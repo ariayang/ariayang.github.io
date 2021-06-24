@@ -1,4 +1,4 @@
-## This is my first blog post
+## Lessons learned in CSS
 
   My biggest struggle today so far is with the style of the links. At first, my unordered links <ul><li> on the navbar won't align in line. I have tried  
 ```
@@ -22,7 +22,7 @@ display: flex-inline;
   
   My next frustration happens when I try to change the 'hover' properties for the links.
   It turns out there are two ways. 
-  '''
+  ```
   li:hover a"
   ```
   or,
