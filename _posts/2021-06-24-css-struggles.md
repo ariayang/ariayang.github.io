@@ -1,6 +1,6 @@
 ## Lessons learned in CSS
 
-  My biggest struggle today so far is with the style of the links. At first, my unordered links '''<ul><li>''' on the navbar won't align in line. I have tried  
+  My biggest struggle today so far is with the style of the links. At first, my unordered links ''< ul >< li >'' on the navbar won't align in line. I have tried  
 ```
 display: flex-inline;
 ```
