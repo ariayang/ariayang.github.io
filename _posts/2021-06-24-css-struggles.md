@@ -10,13 +10,13 @@ display: flex-inline;
   ```
     list-style-type: none;
   ```
-  And then I can make this particle class of ''< ul >'' a "flexbox" to arrange my <li> elements. My mistakes earlier happened in placing this line not in the right place.
+  And then I can make this particle class of ''< ul >'' a "flexbox" to arrange my < li > elements. My mistakes earlier happened in placing this line not in the right place.
   
   Next challenge, remove the default "blue underline" style in my links. What I struggled the most is where to put the line:
   ```
   text-decoration: none;
   ```
-  What I found eventually works is to assign it to the base style anchor style <a>. 
+  What I found eventually works is to assign it to the base style anchor style < a >. 
   It can also placed in other class or id that is directly defined for ''< a >'' element. 
   Putting it under ''< li >'' won't work.
   
@@ -32,7 +32,7 @@ display: flex-inline;
   ''< li >'' and ''< a >'' can be replaced by its defined class/id names.
   Takeaway: Be careful about the 'space'. There is no space around ":". That in particular messed up my 'hover' function for a while. 
     
-  Takeaway for the day:
+  <h2><em> Takeaway for the day: </em></h2>
     - Always define a base style first for links, position, font, color and margin, etc.: ''< a >, < body >''. 
     - Really pay attention about where to define the styles. 
     For example, if ''< a >'' is not defined in specific, or 'text-docoration' is not set to 'none', it will not inherite the style of the block it belongs to.
