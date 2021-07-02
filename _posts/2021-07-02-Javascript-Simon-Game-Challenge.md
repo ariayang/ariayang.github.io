@@ -13,7 +13,7 @@
 </ul>
 
 <h2><em> Solution: </em></h2>
-  The checkAnswer(currentIndex) function needs to be created. The comparison of current click (userClicked[currentIndex]) with the gamePattern[currentIndex] will be happened outside the button.click event. So, once a button is clicked, the function will check the current input. 
+  The checkAnswer(currentIndex) function needs to be created, which is for the comparison of current click (userClicked[currentIndex]) with the gamePattern[currentIndex]. This comparison logic is much simpler if running separate from the button.click event. So, once a button is clicked, the function will check the current input. 
   The function will also check if the user finished the clicks, and proceed to the next sequence if necessary.
   Since the user needs to input the whole sequence every time, the reset of the userClicked array needs to be put inside the nextSequence() function, instead of checkAnswer function, or button.click event. 
   
