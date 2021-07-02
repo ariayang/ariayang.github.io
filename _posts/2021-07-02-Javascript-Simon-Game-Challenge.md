@@ -18,4 +18,7 @@
   Since the user needs to input the whole sequence every time, the reset of the userClicked array needs to be put inside the nextSequence() function, instead of checkAnswer function, or button.click event. 
   
 <h2><em> Takeaway: </em></h2>
+  <h4> Understand the problem before coding </h4>
   Even though I am following the instructions step by step, because I did not think the sequence through or fully understand the problem before diving into the coding (usual mistake for me!), I spent so much time sorting the algorithm during debug. There are a lot of back and forth trying to sort the events sequence right. Especially with the button.click event, I need to practice more to understand better what's needed to be included in the event, and what activities need to be separated. 
+  <h4> Object oriented </h4>
+  Use separate functions. And test frequently on small chunks of code, instead of realizing all the functions at the same time. It is so painful to debug, and eventually trying to deconstruct the big chuck of code.
