@@ -10,30 +10,31 @@ Then, <strong>HTML</strong> to layout the divisions and test it on the browser, 
 
 Next, <strong>css style</strong>. The specification asks for three theme colors. I started with one color to make sure it works as desired first. This almost took half a day. I decided not to worry about the other two themes at this point since I want to make sure I can implement the functions first.
   
-<strong>The fun part: Javascript.</strong> 
-I started with the webpage can listen to the buttons, and recognize the button id/class. Test it in the browser Javascript console. Works.
+<strong>The fun part: Javascript.</strong> <br>
+I started with making sure the webpage can <strong><em>listen to the buttons, and recognize the button id/class</em></strong>. Test it in the browser Javascript console. Works.
 
-Then, to make sure the screen can display the button I clicked. The numbers button worked. I left out the 'del' or 'reset' buttons at this point.
+Then, to make sure the screen can <strong><em>display the button</em></strong> I clicked. The numbers button worked. I left out the 'del' or 'reset' buttons at this point.
 
-Next, to form values from the buttons. Up to this part, another half day of work.
+Next, to <em>form values from the buttons</em>. Up to this part, another half day of work.
 
-The <em>operators</em> took me a while to figure out the sequence. I realized I can only add the values into the equation when I clicked an operator. A lot of tests in the browser console to test I got the sequence right, and consequtive clicks on operators did not get pushed into the equation over and over.
+The <strong>operators</strong> took me a while to figure out the sequence. I realized I can only add the values into the equation when I clicked an operator. A lot of tests in the browser console to test I got the sequence right, and consequtive clicks on operators did not get pushed into the equation over and over.
 
 It also took me a while and discussion to dicide on using one array to store input values, and operators together.
 
-After the operator part works, I moved on to the "=" button. At this moment, I do not want to worry about the order operation yet. Just making sure clicking "=" gives me the result right. And after showing the result, I can keep adding operators, or numbers to continue the calculation from the result or start fresh. This is almost another day's work.
+After the operator part works, I moved on to the <strong><em>"=" button</em></strong>. At this moment, I do not want to worry about the order operation yet. Just making sure clicking "=" gives me the result right. And after showing the result, I can keep adding operators, or numbers to continue the calculation from the result or start fresh. This is almost another day's work.
 
-Finally, the operation order. I tried many times on the iPhone calculator to see how it works, and at which point the disply changes values. It took me hours to figure out the flow chart. My partner gave me the hint that I can do the " * " times or " / " divide operation as soon as it happened. It definitely helped. Took me some time to debug the implementation. Used a lot of "console.log" to monitor the values and operators stored in the array.
+Finally, the <strong><em>operation order</em></strong>. I tried many times on the iPhone calculator to see how it works, and at which point the disply changes values. It took me hours to figure out the flow chart. My partner gave me the hint that I can do the " * " times or " / " divide operation as soon as it happened. It definitely helped. Took me some time to debug the implementation. Used a lot of "console.log" to monitor the values and operators stored in the array.
 
 I also made 'Reset' work since "=" operation also involves reset of the input.
 
-At this point, 2 days of work and it looks like an calculator. 
+At this point, <em>2 days of work</em> and it looks like an calculator. 
 
-<strong> Day 3 </strong>
-Added the function that the calculator responds to keyboard too.
-Found the right toggle bar design, and added it to HTML. Finally, it looked similar to the design spec.
-Made the 'Del' operation work. Decided to added the 3 theme colors in Javascript. Debugging mainly involves identifying the right element for the JQuery operation.
-
+<strong> Day 3 </strong><br>
+<ul>
+  <li>Added the function that the calculator responds to keyboard too.</li>
+<li>Found the right toggle bar design, and added it to HTML. Finally, it looked similar to the design spec.</li>
+<li>Made the 'Del' operation work. Decided to added the 3 theme colors in Javascript. Debugging mainly involves identifying the right element for the JQuery operation.</li>
+</ul>
 <h3> The takeaway </h3>
 Up to this point, I am pretty pround of myself on what I have achieved so far. 
 
