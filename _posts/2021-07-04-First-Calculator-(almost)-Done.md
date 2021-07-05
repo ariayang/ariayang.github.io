@@ -1,7 +1,7 @@
 After 3 days of work, I am (almost) done with my first Calculator website. This is one of the intermediate challenges from <em>Front End Mentor</em> website. Having experienced struggles last time with the Simon game project, I learned my lesson to break down the tasks into smaller parts. Much much smaller chunks.
 
 <h2> The result </h2>
-<a href = "https://ariayang.github.io/calculator-app-main/" target = "_black"></a>
+<a href = "https://ariayang.github.io/calculator-app-main/" target = "_black">My Calculator App </a>
 
 <h2> The process </h2>
 I started with the <strong>drawing</strong> of the page, dividing it into header (app name, toggle bar(2x2 grid for toggle bar and lables arrangement), result display, keypads (another grid), and footer divisions.
